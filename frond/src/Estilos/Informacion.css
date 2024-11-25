@@ -1,0 +1,48 @@
+/* Estilo general del contenedor */
+.contenedor-informacion-general {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    background-color: transparent;
+    padding: 10px;
+    width: 100%;
+}
+
+/* Información de contacto alineada en línea horizontal */
+.contenedor-informacion {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.icon {
+    width: 20px;
+    height: 20px;
+    
+}
+
+/* Redes sociales centradas y con el mismo tamaño */
+.contenedor-redes-sociales {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+/* El contendor de cada informacion de ubicacion, contacto*/
+.contenedor-informacion-detalle {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-left: 30px;
+    
+}

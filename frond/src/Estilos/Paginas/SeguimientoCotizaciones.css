@@ -1,0 +1,67 @@
+.contenedor_principal_seguimiento_cotizaciones {
+  padding: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.new-quotation-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.new-quotation-button:hover {
+  background-color: #0056b3;
+}
+
+.contenedor_tabla {
+  overflow-x: auto;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 600px;
+  padding: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  
+}
+
+th, td {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button[disabled] {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button:hover:not([disabled]) {
+  background-color: #218838;
+}

@@ -1,0 +1,28 @@
+.MostrarUsuario {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.usuario-contenedor {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.texto-iniciar-sesion {
+  font-size: 25px;
+  font-weight: bold;
+  color: #333;
+}
+
+.icono-usuario img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; /* Hace el ícono circular */
+  border: 2px solid #ccc; /* Opcional, para un borde */
+}
+
+.MostrarUsuario:hover {
+  opacity: 0.8; /* Efecto visual al pasar el cursor */
+}

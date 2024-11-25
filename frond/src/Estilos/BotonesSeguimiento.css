@@ -1,0 +1,23 @@
+.botones-seguimiento {
+    display: flex;
+    gap: 10px; /* Espacio entre cada botón */
+    flex-wrap: wrap; /* Permite que los botones se ajusten a la siguiente línea si es necesario */
+    justify-content: center;/*Centramos en forma horizontal*/
+    padding:20px;
+
+  }
+  
+  .botones-seguimiento button {
+    padding: 10px 15px; /* Tamaño de los  botones */
+    font-size: 16px; /* Tamaño de fuente para que el texto sea legible */
+    background-color: #146940; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    border: none; /* Sin bordes */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor a una mano al pasar el ratón */
+    transition: background-color 0.3s; /* Transición para cambio de color al hacer hover */
+  }
+  
+  .botones-seguimiento button:hover {
+    background-color: #00b371; /* Color al pasar el ratón sobre el botón */
+  }

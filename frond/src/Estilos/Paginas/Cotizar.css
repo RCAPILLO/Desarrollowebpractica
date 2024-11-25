@@ -1,0 +1,42 @@
+/* Estilos css de pagina cotizar */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 5px;
+}
+
+th,td {
+  padding: 5px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background: green;
+  color:white
+}
+
+button:hover {
+  background-color: #54c0a5;
+}
+
+.contenedor_Principal_Cotizar {
+  
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 8px;
+}
+
+.contenedor_Secundario_Cotizar {
+  padding: 10px;
+}
+.p{
+  padding-left: 2px;
+}

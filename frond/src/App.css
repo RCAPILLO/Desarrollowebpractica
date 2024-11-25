@@ -1,0 +1,18 @@
+.contenedor_cabecera_principal {
+    display: flex; /* Hace que los hijos estén en una línea */
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: space-between; /* Distribuye el contenido con espacio entre ellos */
+    padding: 10px 20px; /* Márgenes internos opcionales */
+    background-color: #f8f9fa; /* Fondo opcional */
+    border-bottom: 1px solid #ddd; /* Línea inferior opcional */
+  }
+  
+  .contenedor_cabecera_principal .Navegar {
+    flex: 1; /* Asegura que ocupe el espacio disponible */
+  }
+  
+  .contenedor_cabecera_principal .MostrarUsuario {
+    margin-left: auto; /* Empuja MostrarUsuario al extremo derecho */
+    display: flex;
+    align-items: center;
+  }

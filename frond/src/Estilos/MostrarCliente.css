@@ -1,0 +1,30 @@
+
+.form-input {
+    margin-top: 5px;
+    height:20PX;
+    width: 200px;
+    border-radius: 2px;
+    padding-left: 5px;
+}
+.form-row {
+    display: flex;
+    gap: 10px; /* Espacio entre los elementos */
+    height: 30px;
+    width: 500;
+}
+.form_container_cliente {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    padding: 5px; /* Añadir padding alrededor del contenedor */
+    height: auto;
+    width: auto;
+}
+
+.form-group {
+    background-color: #f9f9f9; /* Cambia el color de fondo para visualización */
+    border: 1px solid #ddd; /* Añadir un borde para visualización */
+    border-radius: 5px; /* Opcional: para bordes redondeados */
+    padding: 10px; /* Aumentar el padding interno para hacerlo más grande */
+    min-height: 10px; /* Establecer una altura mínima para el cuadro */
+}
